@@ -155,7 +155,7 @@ else:
             "PyramidAttentionBroadcastConfig",
             "SmoothedEnergyGuidanceConfig",
             "apply_faster_cache",
-            "apply_first_block_cache",
+            # "apply_first_block_cache",
             "apply_layer_skip",
             "apply_pyramid_attention_broadcast",
         ]
@@ -822,7 +822,7 @@ if TYPE_CHECKING or DIFFUSERS_SLOW_IMPORT:
             PyramidAttentionBroadcastConfig,
             SmoothedEnergyGuidanceConfig,
             apply_faster_cache,
-            apply_first_block_cache,
+            # apply_first_block_cache,
             apply_layer_skip,
             apply_pyramid_attention_broadcast,
         )
